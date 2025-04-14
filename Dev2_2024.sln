@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "esercitazioni", "esercitazioni", "{B0023F77-FB85-40D3-B121-2C85EA297918}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "linq_e_lambda", "esercitazioni\linq_e_lambda\linq_e_lambda.csproj", "{C9B224BD-98AE-4913-AE95-3F2216EED8AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9B224BD-98AE-4913-AE95-3F2216EED8AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9B224BD-98AE-4913-AE95-3F2216EED8AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9B224BD-98AE-4913-AE95-3F2216EED8AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9B224BD-98AE-4913-AE95-3F2216EED8AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9B224BD-98AE-4913-AE95-3F2216EED8AF} = {B0023F77-FB85-40D3-B121-2C85EA297918}
+	EndGlobalSection
+EndGlobal

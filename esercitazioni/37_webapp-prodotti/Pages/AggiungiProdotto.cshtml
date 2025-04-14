@@ -1,0 +1,41 @@
+@page
+@model AggiungiProdottoModel
+@{
+    ViewData["Title"] = "Aggiungi Prodotto";
+}
+
+<div>
+    <form method="post">
+        <div class="form-group">
+            <label for="Nome">Nome</label>
+            <input type="text" class="form-control" name="nome">
+        </div>
+        <div class="form-group">
+            <label for="Prezzo">Prezzo</label>
+            <input type="text" class="form-control" name="prezzo">
+        </div>
+        <div class="form-group">
+            <label for="Dettaglio">Dettaglio</label>
+            <input type="text" class="form-control" name="dettaglio">
+        </div>
+
+        <select name="categoria" class="form-control"
+        <option value="--- Seleziona Categoria ---"></option>
+        @foreach (var categoria in Model.Categorie)
+        {
+            <option value="@categoria">@categoria</option>
+        }
+        </select>
+
+        <button type="submit" class="btn btn-primary">Aggiungi</button>
+    </form>
+
+    @if (Model.ConfermaAggiunta != null)
+    {
+        <p> @TempData["ConfermaAggiunta"]</p>
+    }
+    
+    <a asp-page="/Prodotti">Torna a Prodotti</a>
+
+
+</div>

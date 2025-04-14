@@ -1,0 +1,72 @@
+[
+  {
+    "Id": 1,
+    "Nome": "Latte Scremato",
+    "Prezzo": 1.50,
+    "Dettaglio": "1L",
+    "Immagine": "img/latte.png",
+    "Quantita": 1,
+    "Categoria": "Cucina",
+    "Data": null
+  },
+  {
+    "Id": 2,
+    "Nome": "Pane",
+    "Prezzo": 2.50,
+    "Dettaglio": "Pane appena sfornato",
+    "Immagine": "img/pane.webp",
+    "Quantita": 2,
+    "Categoria": "Cucina",
+    "Data": null
+  },
+  {
+    "Id": 3,
+    "Nome": "Pasta ",
+    "Prezzo": 3.50,
+    "Dettaglio": "Fresca all'uovo",
+    "Immagine": "img/pasta.jpg",
+    "Quantita": 3,
+    "Categoria": "Cucina",
+    "Data": null
+  },
+  {
+    "Id": 4,
+    "Nome": "iPhone",
+    "Prezzo": 1389.0,
+    "Dettaglio": "16 Pro Max",
+    "Immagine": "img/img_demo.webp",
+    "Quantita": 0,
+    "Categoria": "Elettronica",
+    "Data": null
+  },
+  {
+    "Id": 5,
+    "Nome": "Prova con il punto",
+    "Prezzo": 15.0,
+    "Dettaglio": "inserirsco uno punto cinque",
+    "Immagine": "img/img_demo.webp",
+    "Quantita": 0,
+    "Categoria": "Elettronica",
+    "Data": null
+  },
+  {
+    "Id": 6,
+    "Nome": "Prova con la virgola",
+    "Prezzo": 1.5,
+    "Dettaglio": "inserisco uno virgola cinque",
+    "Immagine": "img/img_demo.webp",
+    "Quantita": 0,
+    "Categoria": "Elettronica",
+    "Data": null
+  },
+  {
+    "Id": 7,
+    "Nome": "Prodotto di Test DateTime",
+    "Prezzo": 1.6,
+    "Dettaglio": "provo a inserire il prezzo via post",
+    "Immagine": "img/img_demo.webp",
+    "Quantita": 0,
+    "Categoria": "Elettronica",
+    "Data": "10/02/25 a 10:39"
+  }
+]

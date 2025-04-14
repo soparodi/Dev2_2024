@@ -1,0 +1,109 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #121212 !important; /* Sfondo grigio scuro */
+  color: white !important; /* Testo bianco */
+}
+
+.nav-link{
+  color: white !important; /* Testo bianco */
+}
+
+a {
+  text-decoration: none;
+  color: white !important; /* Link in bianco */
+}
+
+#ArrowFilter {
+  color: white !important; /* Testo bianco per ArrowFilter */
+  text-decoration: none;
+}
+
+/* Assicura che tutti i testi siano bianchi */
+h1, h2, h3, h4, h5, h6, p, span, div, li, td, th, label, strong {
+  color: white !important;
+}
+
+/* Stile per input, textarea, select con sfondo grigio scuro e testo bianco */
+.form-control, input, textarea, select {
+  background-color: #1e1e1e !important; /* Sfondo grigio scuro */
+  color: white !important; /* Testo bianco */
+  border: 1px solid #444 !important;
+}
+
+/* Placeholder in grigio chiaro */
+::placeholder {
+  color: #bbbbbb !important;
+}
+
+/* Checkbox e radio button più visibili */
+.form-check-input {
+  background-color: #1e1e1e !important;
+  border: 1px solid #bbbbbb !important;
+}
+
+/* Mantieni i bottoni colorati */
+.green {
+  background-color: green !important;
+}
+
+.red {
+  background-color: red !important;
+}
+
+.pagination {
+  background-color: #212529; /* Nero-grigio scuro */
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.page-item {
+  margin: 0 2px;
+}
+
+.page-item .page-link {
+  background-color: #343a40; /* Grigio scuro */
+  color: #ffffff; /* Testo bianco */
+  border: 1px solid #495057;
+}
+
+.page-item.active .page-link {
+  background-color: #0d6efd; /* Blu Bootstrap */
+  border-color: #0d6efd;
+  color: #ffffff; /* Testo bianco */
+}
+
+.page-item.disabled .page-link {
+  background-color: #495057; /* Grigio scuro */
+  color: #6c757d; /* Grigio chiaro */
+  border-color: #495057;
+}
+
+.page-link:hover {
+  background-color: #1b1f23; /* Ancora più scuro al passaggio del mouse */
+  color: #ffffff;
+}
+
+.active{
+  text-decoration: underline;
+  color: white;
+}
+

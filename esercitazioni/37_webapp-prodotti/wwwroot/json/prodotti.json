@@ -1,0 +1,142 @@
+[
+  {
+    "Id": 1,
+    "Nome": "Latte Scremato",
+    "Prezzo": 1.50,
+    "Dettaglio": "1L",
+    "Immagine": "img/latte.png",
+    "Quantita": 1,
+    "Categoria": "Cucina",
+    "Data": null
+  },
+  {
+    "Id": 2,
+    "Nome": "Pane",
+    "Prezzo": 2.50,
+    "Dettaglio": "Pane appena sfornato",
+    "Immagine": "img/pane.webp",
+    "Quantita": 2,
+    "Categoria": "Cucina",
+    "Data": null
+  },
+  {
+    "Id": 3,
+    "Nome": "Pasta ",
+    "Prezzo": 3.50,
+    "Dettaglio": "Fresca all'uovo",
+    "Immagine": "img/pasta.jpg",
+    "Quantita": 3,
+    "Categoria": "Cucina",
+    "Data": null
+  },
+  {
+    "Id": 4,
+    "Nome": "iPhone",
+    "Prezzo": 1389.0,
+    "Dettaglio": "16 Pro Max",
+    "Immagine": "img/img_demo.webp",
+    "Quantita": 0,
+    "Categoria": "Elettronica",
+    "Data": null
+  },
+  {
+    "Id": 5,
+    "Nome": "Prova con il punto",
+    "Prezzo": 15.0,
+    "Dettaglio": "inserirsco uno punto cinque",
+    "Immagine": "img/img_demo.webp",
+    "Quantita": 0,
+    "Categoria": "Elettronica",
+    "Data": null
+  },
+  {
+    "Id": 6,
+    "Nome": "Prova con la virgola",
+    "Prezzo": 1.5,
+    "Dettaglio": "inserisco uno virgola cinque",
+    "Immagine": "img/img_demo.webp",
+    "Quantita": 0,
+    "Categoria": "Elettronica",
+    "Data": null
+  },
+  {
+    "Id": 7,
+    "Nome": "Daft Punk",
+    "Prezzo": 25.60,
+    "Dettaglio": "One More Time",
+    "Immagine": "img/img_demo.webp",
+    "Quantita": 0,
+    "Categoria": "Elettronica",
+    "Data": "10/02/25 a 10:39"
+  },
+  {
+    "Id": 8,
+    "Nome": "Queen",
+    "Prezzo": 42.50,
+    "Dettaglio": "Bohemian Rhapsody",
+    "Immagine": "img/img_demo.webp",
+    "Quantita": 0,
+    "Categoria": "Musica",
+    "Data": "10/02/25 a 10:47"
+  },
+  {
+    "Id": 9,
+    "Nome": "test nuovo prodotto categoria",
+    "Prezzo": 1.0,
+    "Dettaglio": "provo a inserire la categoria",
+    "Immagine": "img/img_demo.webp",
+    "Quantita": 0,
+    "Categoria": null,
+    "Data": "10/02/25 a 10:47"
+  },
+  {
+    "Id": 10,
+    "Nome": "salvo subito la cateogira",
+    "Prezzo": 1.0,
+    "Dettaglio": "scelgo musica",
+    "Immagine": "img/img_demo.webp",
+    "Quantita": 0,
+    "Categoria": "Musica",
+    "Data": "10/02/25 a 10:49"
+  },
+  {
+    "Id": 11,
+    "Nome": "Calvin Harris",
+    "Prezzo": 36.80,
+    "Dettaglio": "Summer",
+    "Immagine": "img/img_demo.webp",
+    "Quantita": 0,
+    "Categoria": "Musica",
+    "Data": "10/02/25 a 12:02"
+  },
+  {
+    "Id": 12,
+    "Nome": "Calvin Harris",
+    "Prezzo": 36.80,
+    "Dettaglio": "Summer",
+    "Immagine": "img/img_demo.webp",
+    "Quantita": 0,
+    "Categoria": "Musica",
+    "Data": "10/02/25 a 12:04"
+  },
+  {
+    "Id": 13,
+    "Nome": "Calvin Harris",
+    "Prezzo": 36.80,
+    "Dettaglio": "Summer",
+    "Immagine": "img/img_demo.webp",
+    "Quantita": 0,
+    "Categoria": "Musica",
+    "Data": "10/02/25 a 12:05"
+  },
+  {
+    "Id": 14,
+    "Nome": "Calvin Harris",
+    "Prezzo": 36.80,
+    "Dettaglio": "Summer",
+    "Immagine": "img/img_demo.webp",
+    "Quantita": 0,
+    "Categoria": "Musica",
+    "Data": "10/02/25 a 12:07"
+  }
+]

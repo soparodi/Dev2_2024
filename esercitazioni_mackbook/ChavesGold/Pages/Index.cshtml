@@ -1,0 +1,41 @@
+﻿@page
+@using ChavesGold.Pages;
+@model IndexModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <form method="post">
+        <div class="card glass-effect">
+            <div class="d-flex justify-content-center mb-2">
+                <label>
+                    <a asp-page="Index"><h1>ID da Chave</h1></a>
+                </label>
+            </div>
+            <div class="d-flex justify-content-center">
+                <input type="text" asp-for="SearchTerm" class="form-control d-inline" style="width:100%;">
+                <button type="submit" class="ms-2" style="display: inline; width: auto;">Procura</button>
+            </div>
+    </form>
+    <div class="fade">
+        @if (Model.ChavesFound.Count >= 1)
+        {
+            <partial name="_ShowKey" model="Model.ChavesFound" />
+        }
+        else if (!Model.NoFound)
+        {
+            <div class="d-flex justify-content-center align-items-center m-5 p-5">
+                <h2 style="color: red;">Chave nao encontrada</h2>
+            </div>
+        }
+        else
+        {
+            
+        }
+    </div>
+</div>
+
+
+
+</div>
